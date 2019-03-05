@@ -322,7 +322,7 @@ end
 %     load Raw_data_single_trial
 %     channels = [8,13,12,16,14,15,17]; 
 % 
-%     HbO1_raw = squeeze(Neutral_data (:,:,:,1,channels));   HbO1_raw = reshape (HbO1_raw,17,30*256,7);  % ת���д���!!!!
+%     HbO1_raw = squeeze(Neutral_data (:,:,:,1,channels));   HbO1_raw = reshape (HbO1_raw,17,30*256,7);  % ×ª»»ÓÐ´íÎó!!!!
 %     HbO2_raw = squeeze(Happy_data (:,:,:,1,channels));     HbO2_raw = reshape (HbO2_raw,17,30*256,7);
 %     HbO3_raw = squeeze(N2H_data (:,:,:,1,channels));       HbO3_raw = reshape (HbO3_raw,17,30*256,7);
 %     HbO4_raw = squeeze(H2N_data (:,:,:,1,channels));       HbO4_raw = reshape (HbO4_raw,17,30*256,7);
